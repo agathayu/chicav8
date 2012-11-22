@@ -1,25 +1,104 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+
+a:link {
+  color:#ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color:#ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color:#000000;
+  text-decoration: none;
+}
+a:active {
+  color:#b33c61;
+  text-decoration: none;
+} 
+
 #header{
 	position:fixed;
 	top:0px;
-	color:#000000;
+	background: url("../chicav8/image/header.png") no-repeat center center;
 	width:100%;
-	height:30px;
-	font-family: 宋体;
+	height:70px;
+	font-family: Georgia, STXihei, "华文细黑", "微软雅黑";
+  z-index: 1000;
 }
 
-.header-nav ul li:first-child {
-  list-style: none;
-  margin-left: 223px;
+ul
+{
+list-style-type:none;
+margin-left:12%;
+padding:20;
 }
 
-.header-nav ul li {
-  margin: 6px 20px;
-  padding: 0 0 0 10px;
-  color: #000;
+li
+{
+width:20%;
+  display:inline-block;
+  text-align:center;
 }
 
-.header-nav ul {
-  width: 960px;
-  margin: 0 auto;
-  list-style: disc;
+#page1{
+  position:relative;
+  top:0px;
+  background: url("../chicav8/image/page1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:1000px;
+  width:100%;
+}
+
+#signupbutton{
+  position: relative;
+  top:48%;
+  left:64%;
+  width:251px;
+  height:50px;
+}
+
+#page2{
+  position:relative;
+  top:0px;
+    background: url("../chicav8/image/page2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:#aaaaaa;
+  height:1000px;
+  width:100%;
+}
+
+#page3{
+  position:relative;
+  top:0px;
+    background: url("../chicav8/image/page3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:#303030;
+  height:1000px;
+  width:100%;
+}
+
+#page4{
+  position:relative;
+  top:0px;
+    background: url("../chicav8/image/page4.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:#555555;
+  height:1000px;
+  width:100%;
 }
